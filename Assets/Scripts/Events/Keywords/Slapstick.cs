@@ -1,4 +1,5 @@
 ﻿using System;
+using Identity;
 
 namespace Events.Keywords
 {
@@ -11,9 +12,9 @@ namespace Events.Keywords
             this.SlapstickValue = slapstickValue;
         }
         
-        public void ExecuteEffect()
+        public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeSlapstickEvent();
+            KeywordEvents.InvokeSlapstickEvent(cardPlayer);
             BaseEvents.ReduceShield(this.SlapstickValue);
             BaseEvents.DealDirectDamage(this.SlapstickValue);
         }

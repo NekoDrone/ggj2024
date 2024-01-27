@@ -1,4 +1,6 @@
-﻿namespace Events.Keywords
+﻿using Identity;
+
+namespace Events.Keywords
 {
     public class Cringe : IKeyword
     {
@@ -9,9 +11,9 @@
             this.CringeValue = cringeValue;
         }
         
-        public void ExecuteEffect()
+        public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeCringeEvent();
+            KeywordEvents.InvokeCringeEvent(cardPlayer);
             BaseEvents.IncreaseShield(this.CringeValue);
         }
     }

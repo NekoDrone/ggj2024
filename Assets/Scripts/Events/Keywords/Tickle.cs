@@ -1,12 +1,13 @@
 ﻿using System;
+using Identity;
 
 namespace Events.Keywords
 {
     public class Tickle : IKeyword
     {
-        public void ExecuteEffect()
+        public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeTickleEvent();
+            KeywordEvents.InvokeTickleEvent(cardPlayer);
             BaseEvents.ReduceShield(1);
         }
     }

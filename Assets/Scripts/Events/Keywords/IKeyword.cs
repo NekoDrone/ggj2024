@@ -1,7 +1,9 @@
-﻿namespace Events.Keywords
+﻿using Identity;
+
+namespace Events.Keywords
 {
     public interface IKeyword
     {
-        public void ExecuteEffect();
+        public void ExecuteEffect(CardPlayer cardPlayer);
     }
 }

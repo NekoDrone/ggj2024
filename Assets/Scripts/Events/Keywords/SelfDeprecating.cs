@@ -1,13 +1,14 @@
 ﻿using System;
+using Identity;
 
 namespace Events.Keywords
 {
     public class SelfDeprecating : IKeyword
     {
         
-        public void ExecuteEffect()
+        public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeSelfDeprecatingEvent();
+            KeywordEvents.InvokeSelfDeprecatingEvent(cardPlayer);
             BaseEvents.IncreaseShield(1);
         }
     }

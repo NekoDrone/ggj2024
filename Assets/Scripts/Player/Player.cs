@@ -1,5 +1,6 @@
 ﻿using Events;
 using Events.Keywords;
+using Identity;
 using Player.Stats;
 using TurnSystem;
 using UnityEngine;
@@ -13,8 +14,9 @@ namespace Player
         public int currentHealth;
         public bool isMyTurn = true;
         public Punchline Punchline = new();
-        public Threshold Threshold = new();
+        public int Threshold = 5;
         public TurnHandler TurnHandler = new TurnHandler();
+        public string Identity;
     
         private void Start()
         {
@@ -50,40 +52,55 @@ namespace Player
             KeywordEvents.SetupEvent += this.HandleSetupEvent;
             KeywordEvents.SlapstickEvent += this.HandleSlapstickEvent;
             KeywordEvents.TickleEvent += this.HandleTickleEvent;
-            // TODO: Integrate all this into the targeting system
         }
 
-        private void HandleCringeEvent()
+        private static bool CardPlayerIsMe(CardPlayer cardPlayer)
+        {
+            return cardPlayer == CardPlayer.Player;
+        }
+        
+        private void HandleCringeEvent(CardPlayer cardPlayer)
+        {
+            if (!CardPlayerIsMe(cardPlayer))
+            {
+                BaseEvents.IncreaseShieldEvent += i =>
+                {
+                    this.Threshold += i;
+                };
+            }
+        }
+
+        private void HandleMemeEvent(CardPlayer cardPlayer)
+        {
+            // TODO: figure out how to repeat an action;
+        }
+
+        private void HandlePunEvent(CardPlayer cardPlayer)
         {
             
         }
 
-        private void HandleMemeEvent()
+        private void HandleSelfDeprecatingEvent(CardPlayer cardPlayer)
         {
             
         }
 
-        private void HandlePunEvent()
+        private void HandleSetupEvent(CardPlayer cardPlayer)
         {
             
         }
 
-        private void HandleSelfDeprecatingEvent()
+        private void HandleSlapstickEvent(CardPlayer cardPlayer)
         {
             
         }
 
-        private void HandleSetupEvent()
+        private void HandleTickleEvent(CardPlayer cardPlayer)
         {
             
         }
 
-        private void HandleSlapstickEvent()
-        {
-            
-        }
-
-        private void HandleTickleEvent()
+        private void CleanupKeywordEvent()
         {
             
         }

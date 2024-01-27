@@ -1,10 +1,12 @@
-﻿namespace Events.Keywords
+﻿using Identity;
+
+namespace Events.Keywords
 {
     public class Meme : IKeyword
     {
-        public void ExecuteEffect()
+        public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeMemeEvent();
+            KeywordEvents.InvokeMemeEvent(cardPlayer);
             // TODO: figure out how to replay a card
         }
         
