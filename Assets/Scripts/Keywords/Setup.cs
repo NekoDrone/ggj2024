@@ -11,7 +11,7 @@
         
         public void ExecuteEffect()
         {
-            throw new System.NotImplementedException();
+            // TODO: trigger Setup event to add current SetupValue to the Punchline Value
         }
     }
 }

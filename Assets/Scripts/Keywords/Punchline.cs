@@ -6,7 +6,12 @@
 
         public void ExecuteEffect()
         {
-            // trigger the Punchline event with the current PunchlineValue
+            // TODO: trigger the Punchline event with the current PunchlineValue
+        }
+
+        public void SetupPunchline(int value)
+        {
+            this.PunchlineValue += value;
         }
     }
 }
