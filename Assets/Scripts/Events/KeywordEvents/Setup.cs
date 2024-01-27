@@ -1,4 +1,6 @@
-﻿namespace Keywords
+﻿using System;
+
+namespace Events.KeywordEvents
 {
     public class Setup : IKeyword
     {
@@ -8,10 +10,12 @@
         {
             this.SetupValue = setupValue;
         }
+
+        public static event Action<int> IncreasePunchline;
         
         public void ExecuteEffect()
         {
-            // TODO: trigger Setup event to add current SetupValue to the Punchline Value
+            IncreasePunchline?.Invoke(this.SetupValue);
         }
     }
 }

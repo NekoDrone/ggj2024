@@ -1,4 +1,4 @@
-﻿namespace Keywords
+﻿namespace Events.KeywordEvents
 {
     public class Meme : IKeyword
     {

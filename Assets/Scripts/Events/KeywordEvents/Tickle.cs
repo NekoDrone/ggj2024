@@ -1,10 +1,10 @@
-﻿namespace Keywords
+﻿namespace Events.KeywordEvents
 {
     public class Tickle : IKeyword
     {
         public void ExecuteEffect()
         {
-            // TODO: trigger Tickle on enemy to reduce enemy threshold value by 1.
+            BaseEvents.InvokeReduceShield(1);
         }
     }
 }
