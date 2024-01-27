@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"{A} Alderna\"  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"{A} Alderna/2. Articles/Important NPCs\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14570208
+      }
+    },
+    {
+      "query": "path:\"{A} Alderna/2. Articles/Factions/Harpers\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4210175
+      }
+    },
+    {
+      "query": "path:\"{A} Alderna/2. Articles/Factions/Seven Columns\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8724053
+      }
+    },
+    {
+      "query": "path:\"{A} Alderna/2. Articles/Factions/Greater Talenhar Empire\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path: \"{A} Alderna/2. Articles/Historical Events\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8231469
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4619356336636124,
+  "close": true
+}

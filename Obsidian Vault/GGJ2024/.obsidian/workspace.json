@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "4e6518d43d09374e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fbb2d0ff17ac003",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76cc9a9e067f5564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10e42db38d0ad3a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hand.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bf238c331acf935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CardBase.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d94a6eea427e66a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enemy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e58c9526870f21b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5b405bfe2dda562",
+    "type": "split",
+    "children": [
+      {
+        "id": "1438869b775fd685",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84a3c99a3925b956",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18217b52395c1e08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e344104cd3caa07",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c3eebcefa7da2ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5cb42ade6b4c8c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78cab8b8b857f193",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Planning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a96a9bc1151197d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Planning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b37a6aafb876226d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "65ae8c82ebb67e1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Planning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "e58c9526870f21b9",
+  "lastOpenFiles": [
+    "Player.md",
+    "CardBase.md",
+    "Planning.md",
+    "Enemy.md",
+    "Hand.md",
+    "Welcome.md",
+    "{D} Project Management/Untitled.md",
+    "{D} Project Management/ClassBoard SG/Untitled Kanban.md",
+    "{D} Project Management/ClassBoard SG/Untitled.md",
+    "{D} Project Management/Relictify/Client App.md",
+    "{D} Project Management/Relictify/Server API.md",
+    "{C} Fanfic/Hoyoverse/Genshin Impact/Ganqing/Ganqing Week 2023/1. Larimar - Explicit (Between 1 and 2).md",
+    "{D} Project Management/ClassBoard SG",
+    "{C} Fanfic/Hoyoverse/Genshin Impact/Ganqing/Pre-GQ Week 2023/0. Planning.md",
+    "{C} Fanfic/Hoyoverse/Genshin Impact/Kokoeimiko/0. footnotes on eternity.md",
+    "{C} Fanfic/Hoyoverse/Honkai Star Rail/Bronseele/Aurora Jarilis/Chapter 1.md",
+    "{C} Fanfic/Hoyoverse/Honkai Star Rail/Bronseele/Aurora Jarilis/Planning Documents/Structure/Act 1/Chapter 1.md",
+    "{A} Alderna/2. Articles/Factions/Seven Columns/The Seven Columns of Divinity.md",
+    "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md",
+    "{A} Alderna/2. Articles/Important NPCs/Aurora Wyncarn Giltris.md",
+    "{A} Alderna/3. Campaign Planning/One-Shots/(18-19) Berotryn's Fall/Berotryn's Fall.md",
+    "{A} Alderna/2. Articles/Important NPCs/Right Hand of the High Ascendant.md",
+    "{A} Alderna/2. Articles/Factions/Seven Columns/The Seventh Column.md",
+    "{A} Alderna/2. Articles/Important NPCs/Alyra Silversun.md",
+    "{A} Alderna/2. Articles/Important NPCs/Empress Kelnara Erina Phynlarin I.md"
+  ]
+}

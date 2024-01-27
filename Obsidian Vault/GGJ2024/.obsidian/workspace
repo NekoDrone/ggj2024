@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "4b448c334efd1f59",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b449ce091f34245",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd74ea5bcd525484",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dda5f479a893acb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44eb0e120163fc33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "31d21cf81a855558",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18588894df270031",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4f2cb8b55cefe9fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6ab98108e1ef1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38fa2e9ea14607c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "403c88ea3c62bd7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0be9bf58c0506c16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6ff7559d06cb6e8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2b449ce091f34245",
+  "lastOpenFiles": [
+    "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/2. The People of Alderna.md",
+    "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/1. The Story of Alderna.md",
+    "{A} Alderna/1. Source Materials/a. Full Book Sources/A Walker's Guide to Alderna/!A Walker's Guide to Alderna.md",
+    "2022-09-19.md",
+    "AGE06D Assignment 2.md"
+  ]
+}

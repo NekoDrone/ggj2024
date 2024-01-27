@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Obsidianite",
+  "theme": "obsidian",
+  "accentColor": "",
+  "textFontFamily": "Karla,Avenir",
+  "monospaceFontFamily": "Monaspace Krypton",
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "big-math",
+    "print-strip"
+  ]
+}
