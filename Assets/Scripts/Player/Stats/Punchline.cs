@@ -14,7 +14,7 @@ namespace Player.Stats
         
         public static void Trigger(int punchlineValue)
         {
-            BaseEvents.InvokeDealNormalDamage(punchlineValue);
+            BaseEvents.DealNormalDamage(punchlineValue);
         }
 
         private void Increase(int value)

@@ -1,10 +1,15 @@
-﻿namespace Events.KeywordEvents
+﻿using System;
+
+namespace Events.KeywordEvents
 {
     public class Meme : IKeyword
     {
+        public static event Action MemeEvent;
         public void ExecuteEffect()
         {
-            // TODO: trigger Meme event to replay next action
+            MemeEvent?.Invoke();
+            // TODO: figure out how to replay a card
         }
+        
     }
 }

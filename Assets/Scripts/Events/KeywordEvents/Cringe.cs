@@ -1,8 +1,11 @@
-﻿namespace Events.KeywordEvents
+﻿using System;
+
+namespace Events.KeywordEvents
 {
     public class Cringe : IKeyword
     {
         public int CringeValue { get; set; }
+        public static event Action CringeEvent;
 
         public Cringe(int cringeValue)
         {
@@ -11,7 +14,8 @@
         
         public void ExecuteEffect()
         {
-            // TODO: increase enemy threshold by CringeValue when triggered
+            CringeEvent?.Invoke();
+            BaseEvents.IncreaseShield(this.CringeValue);
         }
     }
 }

@@ -1,10 +1,14 @@
-﻿namespace Events.KeywordEvents
+﻿using System;
+
+namespace Events.KeywordEvents
 {
     public class SelfDeprecating : IKeyword
     {
+        public static event Action SelfDeprecatingEvent;
         public void ExecuteEffect()
         {
-            // TODO: trigger SelfDeprecating event to increase own threshold value by 1
+            SelfDeprecatingEvent?.Invoke();
+            BaseEvents.IncreaseShield(1);
         }
     }
 }

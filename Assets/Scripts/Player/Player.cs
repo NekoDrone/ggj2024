@@ -1,15 +1,27 @@
-﻿using System;
+﻿using Events;
+using Player.Stats;
 using UnityEngine;
 
-namespace Scripts.Player
+namespace Player
 {
     public class Player : MonoBehaviour
     {
-        private float Hp { get; set; }
-        private float Mana { get; set; }
+        
+        public int maxHealth = 100;
+        public int currentHealth;
+        public Punchline Punchline = new();
+        public Threshold Threshold = new();
+    
         private void Start()
         {
-            throw new NotImplementedException();
+            this.currentHealth = this.maxHealth;
+            BaseEvents.NormalDamageEvent += this.TakeDamage;
+            BaseEvents.DirectDamageEvent += this.TakeDamage;
+        }
+
+        private void TakeDamage(int damage)
+        {
+            this.currentHealth -= damage;
         }
     }
 }

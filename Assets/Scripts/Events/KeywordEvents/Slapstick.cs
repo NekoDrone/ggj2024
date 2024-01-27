@@ -1,8 +1,11 @@
-﻿namespace Events.KeywordEvents
+﻿using System;
+
+namespace Events.KeywordEvents
 {
     public class Slapstick : IKeyword
     {
         public int SlapstickValue { get; set; }
+        public static event Action SlapstickEvent;
 
         public Slapstick(int slapstickValue)
         {
@@ -11,7 +14,10 @@
         
         public void ExecuteEffect()
         {
-            // TODO: trigger Slapstick event with current SlapstickValue to reduce enemy threshold by value and take value of damage
+            SlapstickEvent?.Invoke();
+            BaseEvents.ReduceShield(this.SlapstickValue);
+            BaseEvents.DealDirectDamage(this.SlapstickValue);
         }
+        
     }
 }

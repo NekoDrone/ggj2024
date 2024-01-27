@@ -12,9 +12,11 @@ namespace Events.KeywordEvents
         }
 
         public static event Action<int> IncreasePunchline;
+        public static event Action SetupEvent;
         
         public void ExecuteEffect()
         {
+            SetupEvent?.Invoke();
             IncreasePunchline?.Invoke(this.SetupValue);
         }
     }

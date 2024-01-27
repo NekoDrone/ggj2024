@@ -8,8 +8,8 @@ namespace Player.Stats
         
         public Threshold()
         {
-            BaseEvents.ReduceShield += this.Reduce;
-            BaseEvents.IncreaseShield += this.Increase;
+            BaseEvents.ReduceShieldEvent += this.Reduce;
+            BaseEvents.IncreaseShieldEvent += this.Increase;
         }
 
         private void Reduce(int value)

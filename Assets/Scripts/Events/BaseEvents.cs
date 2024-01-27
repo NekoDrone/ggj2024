@@ -4,28 +4,28 @@ namespace Events
 {
     public static class BaseEvents
     {
-        public static event Action<int> DealNormalDamage;
-        public static void InvokeDealNormalDamage(int damageValue)
+        public static event Action<int> NormalDamageEvent;
+        public static void DealNormalDamage(int damageValue)
         {
-            DealNormalDamage?.Invoke(damageValue);
+            NormalDamageEvent?.Invoke(damageValue);
         }
 
-        public static event Action<int> DealDirectDamage;
-        public static void InvokeDealDirectDamage(int damageValue)
+        public static event Action<int> DirectDamageEvent;
+        public static void DealDirectDamage(int damageValue)
         {
-            DealDirectDamage?.Invoke(damageValue);
+            DirectDamageEvent?.Invoke(damageValue);
         }
 
-        public static event Action<int> IncreaseShield;
-        public static void InvokeGainShield(int shieldValue)
+        public static event Action<int> IncreaseShieldEvent;
+        public static void IncreaseShield(int shieldValue)
         {
-            IncreaseShield?.Invoke(shieldValue);
+            IncreaseShieldEvent?.Invoke(shieldValue);
         }
         
-        public static event Action<int> ReduceShield;
-        public static void InvokeReduceShield(int shieldValue)
+        public static event Action<int> ReduceShieldEvent;
+        public static void ReduceShield(int shieldValue)
         {
-            ReduceShield?.Invoke(shieldValue);
+            ReduceShieldEvent?.Invoke(shieldValue);
         }
 
     }
