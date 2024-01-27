@@ -4,6 +4,7 @@ namespace Events.Keywords
 {
     public static class KeywordEvents
     {
+        // TODO: Refactor to use targeting system
         public static event Action CringeEvent;
         public static void InvokeCringeEvent()
         {

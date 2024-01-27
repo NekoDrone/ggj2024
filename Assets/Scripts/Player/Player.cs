@@ -50,6 +50,7 @@ namespace Player
             KeywordEvents.SetupEvent += this.HandleSetupEvent;
             KeywordEvents.SlapstickEvent += this.HandleSlapstickEvent;
             KeywordEvents.TickleEvent += this.HandleTickleEvent;
+            // TODO: Integrate all this into the targeting system
         }
 
         private void HandleCringeEvent()
