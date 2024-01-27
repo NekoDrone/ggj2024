@@ -1,4 +1,4 @@
-﻿namespace Events.KeywordEvents
+﻿namespace Events.Keywords
 {
     public interface IKeyword
     {

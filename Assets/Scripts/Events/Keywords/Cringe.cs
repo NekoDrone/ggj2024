@@ -1,11 +1,8 @@
-﻿using System;
-
-namespace Events.KeywordEvents
+﻿namespace Events.Keywords
 {
     public class Cringe : IKeyword
     {
         public int CringeValue { get; set; }
-        public static event Action CringeEvent;
 
         public Cringe(int cringeValue)
         {
@@ -14,7 +11,7 @@ namespace Events.KeywordEvents
         
         public void ExecuteEffect()
         {
-            CringeEvent?.Invoke();
+            KeywordEvents.InvokeCringeEvent();
             BaseEvents.IncreaseShield(this.CringeValue);
         }
     }

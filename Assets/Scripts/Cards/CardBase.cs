@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Events.KeywordEvents;
+using Events.Keywords;
 
 namespace Cards
 {

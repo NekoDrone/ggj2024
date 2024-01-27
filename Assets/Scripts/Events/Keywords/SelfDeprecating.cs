@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace Events.KeywordEvents
+namespace Events.Keywords
 {
     public class SelfDeprecating : IKeyword
     {
-        public static event Action SelfDeprecatingEvent;
+        
         public void ExecuteEffect()
         {
-            SelfDeprecatingEvent?.Invoke();
+            KeywordEvents.InvokeSelfDeprecatingEvent();
             BaseEvents.IncreaseShield(1);
         }
     }

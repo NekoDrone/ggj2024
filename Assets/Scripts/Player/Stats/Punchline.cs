@@ -1,5 +1,5 @@
 ﻿using Events;
-using Events.KeywordEvents;
+using Events.Keywords;
 
 namespace Player.Stats
 {

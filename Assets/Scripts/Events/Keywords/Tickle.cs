@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Events.KeywordEvents
+namespace Events.Keywords
 {
     public class Tickle : IKeyword
     {
-        public static event Action TickleEvent;
         public void ExecuteEffect()
         {
-            TickleEvent?.Invoke();
+            KeywordEvents.InvokeTickleEvent();
             BaseEvents.ReduceShield(1);
         }
     }

@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace Events.KeywordEvents
+namespace Events.Keywords
 {
     public class Slapstick : IKeyword
     {
         public int SlapstickValue { get; set; }
-        public static event Action SlapstickEvent;
 
         public Slapstick(int slapstickValue)
         {
@@ -14,7 +13,7 @@ namespace Events.KeywordEvents
         
         public void ExecuteEffect()
         {
-            SlapstickEvent?.Invoke();
+            KeywordEvents.InvokeSlapstickEvent();
             BaseEvents.ReduceShield(this.SlapstickValue);
             BaseEvents.DealDirectDamage(this.SlapstickValue);
         }

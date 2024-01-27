@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Events.KeywordEvents
+namespace Events.Keywords
 {
     public class Setup : IKeyword
     {
@@ -12,11 +12,10 @@ namespace Events.KeywordEvents
         }
 
         public static event Action<int> IncreasePunchline;
-        public static event Action SetupEvent;
         
         public void ExecuteEffect()
         {
-            SetupEvent?.Invoke();
+            KeywordEvents.InvokeSetupEvent();
             IncreasePunchline?.Invoke(this.SetupValue);
         }
     }

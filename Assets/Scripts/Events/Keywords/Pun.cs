@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Events.KeywordEvents
+namespace Events.Keywords
 {
     public class Pun : IKeyword
     {
-        public static event Action PunEvent;
         public void ExecuteEffect()
         {
-            PunEvent?.Invoke();
+            KeywordEvents.InvokePunEvent();
             BaseEvents.DealDirectDamage(1);
         }
     }

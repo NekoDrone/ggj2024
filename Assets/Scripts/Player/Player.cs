@@ -1,4 +1,5 @@
 ﻿using Events;
+using Events.Keywords;
 using Player.Stats;
 using TurnSystem;
 using UnityEngine;
@@ -41,6 +42,47 @@ namespace Player
 
 
         private void SubscribeToKeywordEvents()
+        {
+            KeywordEvents.CringeEvent += this.HandleCringeEvent;
+            KeywordEvents.MemeEvent += this.HandleMemeEvent;
+            KeywordEvents.PunEvent += this.HandlePunEvent;
+            KeywordEvents.SelfDeprecatingEvent += this.HandleSelfDeprecatingEvent;
+            KeywordEvents.SetupEvent += this.HandleSetupEvent;
+            KeywordEvents.SlapstickEvent += this.HandleSlapstickEvent;
+            KeywordEvents.TickleEvent += this.HandleTickleEvent;
+        }
+
+        private void HandleCringeEvent()
+        {
+            
+        }
+
+        private void HandleMemeEvent()
+        {
+            
+        }
+
+        private void HandlePunEvent()
+        {
+            
+        }
+
+        private void HandleSelfDeprecatingEvent()
+        {
+            
+        }
+
+        private void HandleSetupEvent()
+        {
+            
+        }
+
+        private void HandleSlapstickEvent()
+        {
+            
+        }
+
+        private void HandleTickleEvent()
         {
             
         }
