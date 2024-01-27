@@ -5,6 +5,6 @@ namespace Cards
 {
     public interface ICard
     {
-        public void AddKeyword(PossibleKeywords keyword);
+        public void SetKeywords(List<IKeyword> keywords);
     }
 }

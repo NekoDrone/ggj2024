@@ -7,18 +7,17 @@ namespace Cards
     {
         public string CardName { get; set; }
         public int Cost { get; set; }
-        public List<PossibleKeywords> Keywords { get; set; }
+        public List<IKeyword> Keywords { get; set; }
         public CardBase(string cardName, int cost)
         {
             this.CardName = cardName;
             this.Cost = cost;
-            this.Keywords = new List<PossibleKeywords>();
+            this.Keywords = new List<IKeyword>();
         }
 
-
-        public void AddKeyword(PossibleKeywords keyword)
+        public void SetKeywords(List<IKeyword> keywords)
         {
-            this.Keywords.Add(keyword);
+            this.Keywords = keywords;
         }
     }
 }
