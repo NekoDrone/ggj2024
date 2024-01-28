@@ -12,7 +12,7 @@ To get started with development, please follow these steps.
 
 ### Requirements
 
-- Unity (2021.3.17f1)
+- Unity (2022.3.16f1)
 - Any code editor (The project has recommended .idea files if you use Rider.)
 
 ### Steps
