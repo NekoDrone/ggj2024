@@ -14,9 +14,7 @@ namespace Events.Keywords
         
         public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeSlapstickEvent(cardPlayer);
-            BaseEvents.ReduceShield(this.SlapstickValue);
-            BaseEvents.DealDirectDamage(this.SlapstickValue);
+            KeywordEvents.InvokeSlapstickEvent(cardPlayer, this.SlapstickValue);
         }
         
     }

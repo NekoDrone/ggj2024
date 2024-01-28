@@ -13,8 +13,7 @@ namespace Events.Keywords
         
         public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeCringeEvent(cardPlayer);
-            BaseEvents.IncreaseShield(this.CringeValue);
+            KeywordEvents.InvokeCringeEvent(cardPlayer, this.CringeValue);
         }
     }
 }

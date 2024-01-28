@@ -8,7 +8,6 @@ namespace Events.Keywords
         public void ExecuteEffect(CardPlayer cardPlayer)
         {
             KeywordEvents.InvokePunEvent(cardPlayer);
-            BaseEvents.DealDirectDamage(1);
         }
     }
 }

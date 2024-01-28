@@ -1,5 +1,4 @@
 ﻿using Events;
-using Events.Keywords;
 
 namespace Player.Stats
 {
@@ -7,17 +6,12 @@ namespace Player.Stats
     {
         public int Value { get; set; }
         
-        public Punchline()
-        {
-            Setup.IncreasePunchline += this.Increase;
-        }
-        
         public static void Trigger(int punchlineValue)
         {
             BaseEvents.DealNormalDamage(punchlineValue);
         }
 
-        private void Increase(int value)
+        public void Increase(int value)
         {
             this.Value += value;
         }

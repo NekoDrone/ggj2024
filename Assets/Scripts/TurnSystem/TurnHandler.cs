@@ -2,7 +2,7 @@
 
 namespace TurnSystem
 {
-    public class TurnHandler : ITurnSystem
+    public class TurnHandler
     {
         public Turn CurrentTurn = Turn.Player;
         public event Action TurnChange;

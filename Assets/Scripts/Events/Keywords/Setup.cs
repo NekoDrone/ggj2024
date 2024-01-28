@@ -11,13 +11,10 @@ namespace Events.Keywords
         {
             this.SetupValue = setupValue;
         }
-
-        public static event Action<int> IncreasePunchline;
         
         public void ExecuteEffect(CardPlayer cardPlayer)
         {
-            KeywordEvents.InvokeSetupEvent(cardPlayer);
-            IncreasePunchline?.Invoke(this.SetupValue);
+            KeywordEvents.InvokeSetupEvent(cardPlayer, this.SetupValue);
         }
     }
 }
